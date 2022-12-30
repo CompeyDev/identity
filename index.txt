@@ -1,0 +1,25 @@
+####################################################################################
+#       .o8                                                                         #
+#      "888                                                                         #
+#  .oooo888   .ooooo.  oooo    ooo  .ooooo.   .ooooo.  ooo. .oo.  .oo.   oo.ooooo.  #
+# d88' `888  d88' `88b  `88.  .8'  d88' `"Y8 d88' `88b `888P"Y88bP"Y88b   888' `88b #
+# 888   888  888ooo888   `88..8'   888       888   888  888   888   888   888   888 #
+# 888   888  888    .o    `888'    888   .o8 888   888  888   888   888   888   888 #
+# `Y8bod88P" `Y8bod8P'     `8'     `Y8bod8P' `Y8bod8P' o888o o888o o888o  888bod8P' #
+#                                                                         888       #
+#                                                                        o888o      #
+####################################################################################
+
+This domain consists of my GPG signing keys that are used for various maintanence 
+purposes. In order to obtain a particular GPG key, you can form a URL as follows:
+
+https://id.devcomp.xyz/<EMAIL>/key.gpg
+
+--------------------------------------------------------------------------------------
+
+To use the key for verification purposes, import the key into GPG. For instance, the 
+datalink signing key can be imported using 
+"curl https://id.devcomp.xyz/devcomp@datalink.dev/key.gpg | gpg --import". Simply
+replace the URL to reuse the command for other keys. Next, any particular file can be 
+verified using the "gpg --verify" syntax. 
+--------------------------------------------------------------------------------------
