@@ -1,4 +1,4 @@
-####################################################################################
+ ###################################################################################
 #       .o8                                                                         #
 #      "888                                                                         #
 #  .oooo888   .ooooo.  oooo    ooo  .ooooo.   .ooooo.  ooo. .oo.  .oo.   oo.ooooo.  #
@@ -8,7 +8,7 @@
 # `Y8bod88P" `Y8bod8P'     `8'     `Y8bod8P' `Y8bod8P' o888o o888o o888o  888bod8P' #
 #                                                                         888       #
 #                                                                        o888o      #
-####################################################################################
+ ###################################################################################
 
 This domain consists of my GPG signing keys that are used for various maintanence 
 purposes. In order to obtain a particular GPG key, you can form a URL as follows:
