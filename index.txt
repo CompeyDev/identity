@@ -15,6 +15,11 @@ purposes. In order to obtain a particular GPG key, you can form a URL as follows
 
 https://id.devcomp.xyz/<EMAIL>/<INDEX>.gpg
 
+A similar URL pattern is followed for SSH, except ssh needs to be prepended before the 
+index of the public key. So:
+
+https://id.devcomp.xyz/<EMAIL>/ssh-<INDEX>.gpg
+
 --------------------------------------------------------------------------------------
 
 To use the key for verification purposes, import the key into GPG. For instance, a 
